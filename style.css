@@ -1,0 +1,119 @@
+/* Global Styles */
+
+* {
+  font-family: sans-serif;
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+div {
+  margin: 35px 0;
+  margin-left: 25px;
+}
+
+.social-media h3,
+.education h3,
+.experience h3,
+.skills h3,
+.langauges h3,
+.hobbies h3 {
+  text-transform: uppercase;
+  border-bottom: 3px solid aquamarine;
+}
+
+.education h3,
+.experience h3,
+.langauges h3,
+.hobbies h3 {
+  margin-bottom: 20px;
+}
+
+.education h5,
+.experience h5 {
+  font-size: 14px;
+  margin-bottom: 5px;
+}
+
+.skills p,
+.langauges p,
+.hobbies p {
+  margin-bottom: 5px;
+}
+
+/* CV Container */
+
+.cv-container {
+  width: 1100px;
+  border: 1px solid black;
+  margin: 0 auto;
+  padding: 30px 0;
+  background-color: azure;
+}
+
+/* Header */
+
+.header {
+  margin-top: 10px;
+  display: flex;
+  width: 100%;
+  justify-content: flex-start;
+  align-items: center;
+}
+
+.header-img-container {
+  height: 180px;
+  width: 170px;
+  background-color: aquamarine;
+}
+
+.header-img-container img {
+  height: 100%;
+  width: 100%;
+}
+
+.header-text-container {
+  margin-left: 80px;
+}
+
+.header-text-job {
+  margin-top: 5px;
+  margin-bottom: 20px;
+}
+
+.header-text-bio {
+  margin-bottom: 30px;
+}
+
+.header-text-container ul li span {
+  font-weight: bold;
+}
+
+/* Social Media */
+
+.social-media-links {
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+}
+
+.social-media-links a {
+  text-decoration: none;
+  color: aquamarine;
+  border-bottom: 1px solid aquamarine;
+  transition: transform 0.4s ease-in-out;
+  padding-bottom: 3px;
+}
+
+.social-media-links a:hover {
+  transform: translateY(-4px);
+}
+
+/* Skilss */
+
+.skills-side-title {
+  margin: 15px 0;
+  border-bottom: 3px solid aquamarine;
+  display: inline-block;
+  padding-bottom: 3px;
+}
